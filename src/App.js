@@ -4,6 +4,7 @@ import State from "./component/State";
 import Condition1 from "./component/Condition1";
 import Condition2 from "./component/Condition2";
 import Refresh from "./component/Refresh";
+import ReactDomManifulation from "./component/ReactDomManifulation";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Condition1 />
       <Condition2 />
       <Refresh />
+      <ReactDomManifulation/>
     </div>
   );
 }
