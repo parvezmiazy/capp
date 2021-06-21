@@ -8,8 +8,9 @@ import Welcome from "./component/Welcome";
 // import AnotherDom from "./component/AnotherDom";
 // import Form from "./component/Form";
 // import AnotherForm from "./component/AnotherForm";
-import OnSubmit from "./component/OnSubmit";
-import Signup from "./component/Signup";
+//import OnSubmit from "./component/OnSubmit";
+//import Signup from "./component/Signup";
+import SignUpValidation from "./component/SignUpValidation";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
       <ReactDomManifulation />
       <AnotherDom />
       <Form />
-      <AnotherForm /> */}
+      <AnotherForm /> 
       <OnSubmit />
-      <Signup />
+      <Signup />*/}
+      <SignUpValidation />
     </div>
   );
 }
