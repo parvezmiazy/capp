@@ -10,12 +10,16 @@ import Welcome from "./component/Welcome";
 // import AnotherForm from "./component/AnotherForm";
 //import OnSubmit from "./component/OnSubmit";
 //import Signup from "./component/Signup";
-import SignUpValidation from "./component/SignUpValidation";
-
+//import SignUpValidation from "./component/SignUpValidation";
+//import Text from "./component/Text";
+//import Select from "./component/Select";
+//import List from "./component/List";
+//import Jsonlist from "./component/Jsonlist";
 function App() {
   return (
     <div className="App">
       <Welcome></Welcome>
+      <p>Home</p>
       {/* <Welcome></Welcome>
       <Arrow />
       <State />
@@ -27,8 +31,12 @@ function App() {
       <Form />
       <AnotherForm /> 
       <OnSubmit />
-      <Signup />*/}
+      <Signup />*
       <SignUpValidation />
+      <Text /> 
+      <Select />
+      <List />
+      <Jsonlist />*/}
     </div>
   );
 }
