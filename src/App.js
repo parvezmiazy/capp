@@ -1,4 +1,6 @@
 import Welcome from "./component/Welcome";
+import './App.css';
+import styles from './Mycss.module.css';
 // import Arrow from "./component/Arrow";
 // import State from "./component/State";
 // import Condition1 from "./component/Condition1";
@@ -15,11 +17,14 @@ import Welcome from "./component/Welcome";
 //import Select from "./component/Select";
 //import List from "./component/List";
 //import Jsonlist from "./component/Jsonlist";
+import Example from "./component/Example";
 function App() {
   return (
     <div className="App">
+ <Example></Example>
       <Welcome></Welcome>
-      <p>Home</p>
+      <p className="TextStyle">Home External Css included</p>
+      <h1 className={styles.TextStyle}>External Css module included</h1>
       {/* <Welcome></Welcome>
       <Arrow />
       <State />
