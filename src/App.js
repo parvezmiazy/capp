@@ -20,19 +20,28 @@
 //import CountryList from './component//CountryList.js';
 //import Post from "./component/Post";
 import Welcome from "./component/Welcome";
-import Mytable from "./component/Mytable";
+import Mynavigation from "./component/Mynavigation";
+import Myroute from "./component/Myroute";
+//import Mytable from "./component/Mytable";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+        <Mynavigation />
+        <Myroute />
+      </BrowserRouter>
       {/* <Example></Example> */}
+
       <Welcome></Welcome>
-      <Mytable />
+
       {/* <CountryList></CountryList> */}
 
       <p className="TextStyle">Home External Css included</p>
       {/* <h1 className={styles.TextStyle}>External Css module included</h1> */}
 
       {/*
+         <Mytable />
          <Post />
       <Welcome></Welcome>
       <Arrow />
