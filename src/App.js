@@ -20,13 +20,22 @@ import styles from './Mycss.module.css';
 //import Example from "./component/Example";
 //import CountryList from './component//CountryList.js';
 import Post from "./component/Post";
-import Mytable from "./component/Mytable";
+import Mynavigation from "./component/Mynavigation";
+import Myroute from "./component/Myroute";
+//import Mytable from "./component/Mytable";
 function App() {
   return (
     <div className="App">
+  
+      <Mynavigation/>
+       <Myroute/>
+
+     
+   
+
  {/* <Example></Example> */}
       <Welcome></Welcome>
-      <Mytable/>
+     
       {/* <CountryList></CountryList> */}
       <Post/>
       <p className="TextStyle">Home External Css included</p>
@@ -34,6 +43,7 @@ function App() {
 
      
       {/* <Welcome></Welcome>
+       <Mytable/>
       <Arrow />
       <State />
       <Condition1 />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactTable from 'react-table';
 //import "react-table/react-table.css";
-import "react-table-6/react-table.css"
+//import {useTable} from 'react-table';
 
 export default class Mytable extends Component {
     render() {
