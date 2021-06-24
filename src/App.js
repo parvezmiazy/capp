@@ -1,6 +1,5 @@
-import Welcome from "./component/Welcome";
-import './App.css';
-import styles from './Mycss.module.css';
+//import "./App.css";
+//import styles from "./Mycss.module.css";
 // import Arrow from "./component/Arrow";
 // import State from "./component/State";
 // import Condition1 from "./component/Condition1";
@@ -19,21 +18,23 @@ import styles from './Mycss.module.css';
 //import Jsonlist from "./component/Jsonlist";
 //import Example from "./component/Example";
 //import CountryList from './component//CountryList.js';
-import Post from "./component/Post";
+//import Post from "./component/Post";
+import Welcome from "./component/Welcome";
 import Mytable from "./component/Mytable";
 function App() {
   return (
     <div className="App">
- {/* <Example></Example> */}
+      {/* <Example></Example> */}
       <Welcome></Welcome>
-      <Mytable/>
+      <Mytable />
       {/* <CountryList></CountryList> */}
-      <Post/>
-      <p className="TextStyle">Home External Css included</p>
-      <h1 className={styles.TextStyle}>External Css module included</h1>
 
-     
-      {/* <Welcome></Welcome>
+      <p className="TextStyle">Home External Css included</p>
+      {/* <h1 className={styles.TextStyle}>External Css module included</h1> */}
+
+      {/*
+         <Post />
+      <Welcome></Welcome>
       <Arrow />
       <State />
       <Condition1 />
