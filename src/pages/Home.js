@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
 
 export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <p>Home</p>
-            </div>
-        )
+  render() {
+    if (sessionStorage.getItem("userName") == null) {
+      return <Redirect to="/login" />;
+    } else {
+      return (
+        <div>
+          <h1>Home</h1>
+        </div>
+      );
     }
+  }
 }

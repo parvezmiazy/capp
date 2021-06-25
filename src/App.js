@@ -31,6 +31,10 @@ function App() {
         <Mynavigation />
         <Myroute />
       </BrowserRouter>
+      {/* <HashRouter>
+        <Mynavigation />
+        <Myroute />
+      </HashRouter> */}
       {/* <Example></Example> */}
 
       <Welcome></Welcome>
