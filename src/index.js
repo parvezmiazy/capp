@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
 
 import {
   Route,
@@ -25,7 +24,6 @@ const myrouter = (
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route path="/portfolio" component={Portfolio} />
     </div>
   </Router>
 );

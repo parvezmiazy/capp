@@ -22,6 +22,8 @@
 import Welcome from "./component/Welcome";
 import Mynavigation from "./component/Mynavigation";
 import Myroute from "./component/Myroute";
+import Demo from "./component/Demo";
+import Son from "./component/Son";
 //import Mytable from "./component/Mytable";
 import { BrowserRouter } from "react-router-dom";
 function App() {
@@ -38,6 +40,9 @@ function App() {
       {/* <Example></Example> */}
 
       <Welcome></Welcome>
+      <Son name="Puti name is salam" />
+
+      <Demo />
 
       {/* <CountryList></CountryList> */}
 
