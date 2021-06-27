@@ -4,6 +4,7 @@ export default class Son extends Component {
   render() {
     return (
       <div>
+        {/* <Nati name={this.props.name} /> */}
         <Nati name={this.props.name} />
       </div>
     );

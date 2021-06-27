@@ -26,9 +26,12 @@ import Demo from "./component/Demo";
 import Son from "./component/Son";
 //import Mytable from "./component/Mytable";
 import { BrowserRouter } from "react-router-dom";
+import { Dadaprovider } from "./component/Mycontext";
+import Fragmentdemo from "./component/Fragmentdemo";
 function App() {
   return (
     <div className="App">
+      <Fragmentdemo />
       <BrowserRouter>
         <Mynavigation />
         <Myroute />
@@ -40,7 +43,11 @@ function App() {
       {/* <Example></Example> */}
 
       <Welcome></Welcome>
-      <Son name="Puti name is salam" />
+      {/* <Son name="Puti name is salam" /> */}
+
+      <Dadaprovider value="Dada send message to puti">
+        <Son />
+      </Dadaprovider>
 
       <Demo />
 
